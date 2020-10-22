@@ -1,0 +1,59 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+h1,
+h2 {
+    color: #4E4E64;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+button {
+    background-color: #1C617C;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 36px;
+    color: white;
+}
+
+
+table {
+    border-collapse: collapse;
+    width:120%;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  table, td, th {
+    border: 1px solid black;
+  }
+
+  tr:hover {
+    background-color: #b5e1e1;
+    cursor: pointer;
+  }
+
+  .foto:hover {
+    transform: rotate(720deg);
+    transition: transform 2s linear
+    
+}
+
+
+body {
+    margin: 0 auto;
+    width: 43%;
+    padding: 10px 15px;
+    background-image: linear-gradient(180deg, #313182, #c8c8e8);
+    font-size: 16px;
+}
+
+form {
+    background: #c7bfdc;
+    border: 2px solid cadetblue;
+}
